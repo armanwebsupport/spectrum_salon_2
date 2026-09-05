@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-script: 'Pinyon Script', cursive;
+
+  --color-pink-50: #FFF5F7;
+  --color-pink-100: #FFEAF0;
+  --color-pink-200: #FCD2DF;
+  --color-pink-300: #F7ADC2;
+  --color-pink-400: #EE7D9F;
+  --color-pink-500: #DD4C79;
+  --color-pink-600: #C22D5E;
+  --color-pink-700: #9E1F49;
+  --color-pink-800: #7E1C3C;
+  --color-pink-900: #55142B;
+  --color-pink-950: #330818;
+
+  --color-gold-300: #E6CA85;
+  --color-gold-400: #D8B766;
+  --color-gold-500: #C5A059;
+  --color-gold-600: #A88340;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FFF9FA;
+    color: #2D1A22;
+  }
+
+  h1, h2, h3, .font-luxury-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-script {
+    font-family: var(--font-script);
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFEAF0;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8A5B8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C22D5E;
+}
+

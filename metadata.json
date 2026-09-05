@@ -1,0 +1,6 @@
+{
+  "name": "Spectrum by Pink Makeover",
+  "description": "5.0 ★ luxury family salon & beauty parlour in Sambalpur, Odisha. Featuring Korean Head Spa, Japanese Head Spa, Aqua Spa, bespoke bridal makeovers, balayage, and online WhatsApp booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
